@@ -13,32 +13,28 @@ Questo progetto è la parte backend di un'applicazione di autenticazione con reg
 
 ### Clona la Repository
 
-\``bash
 git clone https://github.com/OmarBackendDeveloper/backendTest.git
 cd backendTest
-\``
+
 
 ### Configurazione delle Variabili d'Ambiente
 
 Crea un file `.env` nella root del progetto e aggiungi le seguenti variabili d'ambiente:
 
-\``plaintext
 MONGO_URI=mongodb+srv://moukassi1998:abc1234@cluster001.w5s1w2r.mongodb.net/?retryWrites=true&w=majority
 JWT_SECRET=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0
 PORT=3080
-\``
+
 
 ### Installazione delle Dipendenze
 
-\``bash
 npm install
-\``
+
 
 ### Avvio del Server Backend
 
-\``bash
 npm start
-\``
+
 
 Il server backend sarà disponibile all'indirizzo [http://localhost:3080](http://localhost:3080).
 
